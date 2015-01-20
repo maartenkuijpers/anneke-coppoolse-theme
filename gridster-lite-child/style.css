@@ -1,0 +1,48 @@
+/*
+Theme Name: Anneke Coppoolse
+Theme URI: http://www.mpedia.nl/wordpress-themes/anneke-coppoolse
+Author: ThemeFurnace (adaption made by Maarten Kuijpers)
+Author URI: http://themefurnace.com
+Description: This is an adaption of the Gridster-Lite theme by ThemeFurnace.
+Version: 1.0.0
+License: GNU General Public License
+Template: gridster-lite
+Text Domain: gridster-lite
+*/
+
+body {
+    font-family: "Century Gothic",Arial,sans-serif;
+}
+
+#sidebar {
+    background-color: #333  ;
+}
+.tagline {
+    font-size: 2em;
+}
+#content {
+    color: #000;
+    margin-top: -140px;
+}
+
+.sidebarwidget a:link, .sidebarwidget a:visited {
+    color: #fff;
+}
+
+.sidebarwidget a:hover {
+    color: #f00;
+}
+
+.sidebarwidget li {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.box {
+    min-height: 300px;
+    width: 990px;
+    background: green;
+    overflow: hidden;
+    vertical-align: central;
+    text-align: center;  /* align center all inline elements */
+}
