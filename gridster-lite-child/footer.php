@@ -10,8 +10,8 @@
 
 <div id="footer">
 <?php do_action( 'gridster_credits' ); ?>
-<?php echo get_theme_mod( 'themefurnacefooter_footer_text' ); ?><br />
 <?php _e('&copy; Copyright','gridster') ?> <?php the_time('Y') ?> <?php bloginfo('name'); ?>	
+<?php echo get_theme_mod( 'themefurnacefooter_footer_text' ); ?> 
 </div>
 </div>
 <!-- main -->

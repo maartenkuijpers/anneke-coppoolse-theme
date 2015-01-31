@@ -7,7 +7,7 @@
 <div id="main">
 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>> <a href="<?php the_permalink(); ?>">
 
-<!--
+<!-- The Article Feature image (disabled)
 <div class="box">
 <?php //the_post_thumbnail('post-full', array('class' => 'postimage')); ?>
 </div>

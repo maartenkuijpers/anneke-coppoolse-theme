@@ -12,31 +12,72 @@ Text Domain: gridster-lite
 
 body {
     font-family: "Century Gothic",Arial,sans-serif;
+    background-color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-left: 10px;
+}
+
+#container {
+    background-color: #333;
 }
 
 #sidebar {
-    background-color: #333  ;
+    background-color: #111;
+    border-left: 0;
+    border-right: 0;
 }
+
 .tagline {
     font-size: 2em;
+    color: #fff;
+    text-align: right;
+    box-shadow: 0 1px 0 #fff;
+    padding-left: 10px;
+    margin-top: -15px;
+    padding-top: 15px;
+    background-image: url("images/as-logo-40px.png");
+    background-repeat: no-repeat;
 }
+
 #content {
     color: #000;
     margin-top: -140px;
 }
 
-.sidebarwidget a:link, .sidebarwidget a:visited {
-    color: #fff;
+    #content ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        margin-left: 10px;
+    }
+
+#footer a {
+    color: #8fb9d4;
 }
 
-.sidebarwidget a:hover {
-    color: #f00;
+    #footer a:hover {
+        color: #999;
+    }
+
+.sidebarwidget {
+    box-shadow: 0 1px 0 #fff;
 }
 
-.sidebarwidget li {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
+    .sidebarwidget a:link, .sidebarwidget a:visited {
+        color: #ddd;
+        border: 0;
+    }
+
+    .sidebarwidget a:hover, .sidebarwidget a:active {
+        color: #fff;
+        border: 0;
+    }
+
+    .sidebarwidget li {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
 
 .box {
     min-height: 300px;
@@ -44,5 +85,5 @@ body {
     background: green;
     overflow: hidden;
     vertical-align: central;
-    text-align: center;  /* align center all inline elements */
+    text-align: center; /* align center all inline elements */
 }
