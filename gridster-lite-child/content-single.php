@@ -37,6 +37,7 @@
 <!-- #post-## -->
 </div>
 <!-- comments -->
-<?php gridster_content_nav( 'nav-below' ); ?>
+<?php 
+gridster_content_nav( 'nav-below' ); ?>
 </div>
 <!-- content -->
